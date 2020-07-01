@@ -1,0 +1,19 @@
+{
+    "TRAIN_END": 1900,           
+    "TRAIN_DAYS": 730,
+    "HPARAMS":{
+        "num_iterations": 1400,
+        "objective": "poisson",
+        "metric": "rmse",
+        "force_row_wise": true,
+        "learning_rate": 0.075,
+        "sub_row": 0.75,
+        "bagging_freq": 1,
+        "lambda_l2" : 0.1,
+        "verbosity": 1,
+        "num_leaves": 128,
+        "min_data_in_leaf": 100,
+        "feature_fraction": 0.5
+    },
+    "comments": []
+} 
